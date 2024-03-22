@@ -4,7 +4,7 @@ from openpilot.selfdrive.car.mazda.values import CAR
 Ecu = car.CarParams.Ecu
 
 FW_VERSIONS = {
-  CAR.CX5_2022: {
+  CAR.MAZDA_CX5_2022: {
     (Ecu.eps, 0x730, None): [
       b'KSD5-3210X-C-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
@@ -43,7 +43,7 @@ FW_VERSIONS = {
       b'SH51-21PS1-C\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
-  CAR.CX5: {
+  CAR.MAZDA_CX5: {
     (Ecu.eps, 0x730, None): [
       b'K319-3210X-A-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
       b'KCB8-3210X-B-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
@@ -112,7 +112,7 @@ FW_VERSIONS = {
       b'SH9T-21PS1-D\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
-  CAR.CX9: {
+  CAR.MAZDA_CX9: {
     (Ecu.eps, 0x730, None): [
       b'K070-3210X-C-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
       b'KJ01-3210X-G-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
@@ -162,7 +162,7 @@ FW_VERSIONS = {
       b'PYFM-21PS1-D\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
-  CAR.MAZDA3: {
+  CAR.MAZDA_3: {
     (Ecu.eps, 0x730, None): [
       b'BHN1-3210X-J-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
       b'K070-3210X-C-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
@@ -197,7 +197,7 @@ FW_VERSIONS = {
       b'PYKE-21PS1-B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
-  CAR.MAZDA6: {
+  CAR.MAZDA_6: {
     (Ecu.eps, 0x730, None): [
       b'GBEF-3210X-B-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
       b'GBEF-3210X-C-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
@@ -229,7 +229,7 @@ FW_VERSIONS = {
       b'PYH7-21PS1-B\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
   },
-  CAR.CX9_2021: {
+  CAR.MAZDA_CX9_2021: {
     (Ecu.eps, 0x730, None): [
       b'TC3M-3210X-A-00\x00\x00\x00\x00\x00\x00\x00\x00\x00',
     ],
